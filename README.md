@@ -41,7 +41,7 @@ The training and testing procedures are provided as Bash scripts in the `scripts
 To train UASR, run the corresponding training script:
 
 ```bash
-bash scripts/train.sh
+bash train.sh
 ```
 
 ### Testing
@@ -49,7 +49,7 @@ bash scripts/train.sh
 After training, run the testing script to evaluate the trained model:
 
 ```bash
-bash scripts/test.sh
+bash test.sh
 ```
 
 Please modify the dataset paths, checkpoint paths, and other experimental settings in the corresponding Bash scripts before running them.
@@ -61,7 +61,7 @@ Qualitative Comparison
 
 The qualitative comparison between UASR and existing methods on different medical image segmentation datasets is shown below.
 
-![Qualitative Comparison](assets/comparison.png)
+![Qualitative Comparison](assets/fig.png)
 
 
 
