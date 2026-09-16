@@ -32,8 +32,27 @@ We evaluate UASR on seven publicly available medical image segmentation datasets
 | RIM-ONE      | Optic Disc Segmentation               | [Dataset](https://github.com/miag-ull/rim-one-dl)                    |
 
 
-
-
 ## 3. Training and Testing
+
+The training and testing procedures are provided as Bash scripts in the `scripts/` directory.
+
+### Training
+
+To train UASR, run the corresponding training script:
+
+```bash
+bash scripts/train.sh
+```
+
+### Testing
+
+After training, run the testing script to evaluate the trained model:
+
+```bash
+bash scripts/test.sh
+```
+
+Please modify the dataset paths, checkpoint paths, and other experimental settings in the corresponding Bash scripts before running them.
+
 
 ## 4. Results
