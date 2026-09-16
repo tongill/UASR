@@ -65,7 +65,7 @@ The qualitative comparison between UASR and existing methods on different medica
 
 
 
-## Cition
+## Citation
 If you find this work useful, please consider citing:
 
 
