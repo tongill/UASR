@@ -56,3 +56,18 @@ Please modify the dataset paths, checkpoint paths, and other experimental settin
 
 
 ## 4. Results
+
+Qualitative Comparison
+
+The qualitative comparison between UASR and existing methods on different medical image segmentation datasets is shown below.
+
+![Qualitative Comparison](assets/comparison.png)
+
+
+
+
+
+
+
+
+
